@@ -32,6 +32,7 @@ class ContactInput extends React.Component {
 
   onSubmitEventHandler(event) {
     event.preventDefault();
+    // eslint-disable-next-line react/prop-types
     this.props.addContact(this.state);
   }
 
